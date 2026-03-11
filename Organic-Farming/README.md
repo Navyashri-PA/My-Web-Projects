@@ -35,7 +35,7 @@ This project focuses on **clean UI design, responsive layout, and semantic HTML 
 
 You can view the live website here:
 
-👉 https://Navyashri-PA.github.io/My-Web-Projects/Organic-Farming/
+👉 'https://Navyashri-PA.github.io/My-Web-Projects/Organic-Farming/'
 
 ---
 
