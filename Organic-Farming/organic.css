@@ -1,0 +1,85 @@
+/* @font-face{
+    /* font-family:"Orbito" ;
+    src: url("organic farming\Orbito.otf"); 
+ */
+*{
+    margin: 0;
+    /* font-family: "Orbito",sans-serif; */
+}
+/* Home */
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color:bisque;
+    background: url("https://trial.ovationthemes.com/agriculture-farming/wp-content/themes/agriculture-farming-pro/assets/images/slides/slide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;   
+
+}
+.home>section{
+    height: 120px;
+    width: 85%;
+    /* background-color: aliceblue; */
+}
+section>header{
+    height: 35%;
+    width: 100%;
+    background: rgba(67, 66, 66, 0.867);
+    backdrop-filter: blur(3px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section>nav{
+    height: 65%;
+    width: 100%;
+    background-color: limegreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    a{
+        display: flex;
+        gap:10px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+}
+nav>.nav-items{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+    }
+}
+.bi{
+    display: inline-block;
+}
+
+nav a:hover:not(a:nth-child(5)).bi{
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
+}
+/* .home>.text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: black;
+} */
