@@ -32,7 +32,7 @@ This project demonstrates the use of **HTML form elements and webpage structurin
 
 View the project here:
 
-🔗 'https://Navyashri-PA.github.io/My-Web-Projects/Travel-Website/'
+🔗 'https://Navyashri-PA.github.io/My-Web-Projects/Student-Form/student_form.html'
 
 ---
 
